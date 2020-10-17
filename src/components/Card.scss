@@ -1,0 +1,31 @@
+@import "./variables";
+
+.card{
+    width: 350px;
+    height: 400px;
+    background: $primary-color;
+    box-shadow: $shadow;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.02);
+        opacity: 0.8;
+    }
+
+    div{
+        padding:20px;
+        h3{
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'Prata', serif;
+                margin-bottom: 10px;
+                border-bottom: 2px solid $accent-color;
+        }
+        p{
+            font-size: 14px;
+            font-family: 'Prata', serif;
+            text-align: justify;
+        };
+    };
+};

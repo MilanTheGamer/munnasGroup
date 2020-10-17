@@ -1,0 +1,147 @@
+@import "./variables";
+
+.homeScreen{
+    width: 100vw;
+    height: 100vh;
+    background: url("./images/home1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vh;
+};
+
+.titleScreen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid $secondary-color;
+    
+
+    .titleBox{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 6rem;
+            font-family: "Cinzel";
+            text-shadow: $shadow;
+            font-weight: 400;
+            animation: fadeIn 1s ease-in-out;
+
+            @media (max-width:720px) {
+                font-size: 3rem;
+            }
+        };
+        h3{
+            font-size: 5rem;
+            font-family: "Cinzel";
+            text-shadow: $shadow;
+            font-weight: 400;
+            animation: fadeIn 1.5s ease-in-out;
+
+            @media (max-width:720px) {
+                font-size: 2rem;
+            }
+        };
+
+        @keyframes fadeIn {
+            0%{
+                opacity: 0;
+                transform: scale(2) translateY(-20px);
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1) translateY(0px);
+            };
+        };
+
+
+    };
+
+    .toStoryButton{
+        height: 100px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width: 120px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            transition: all 0.5s ease-in-out;
+            border: 2px solid $primary-color;
+            cursor: pointer;
+
+            span{
+                font-size: 1.2em;
+                color: $primary-color;
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            };
+        };
+    }
+};
+
+// .titleScreen{
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding-top: 15vh;
+//     padding-left: 10vw;
+//     padding-right: 10vw;
+//     padding-bottom: 10vh;
+
+//     .titleBox{
+//         width: 100%;
+//         height: 100%;
+//         border: 3px solid $secondary-color;
+//         display: flex;
+//         flex-grow: 1;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         font-family: "Cinzel";
+//         transition: all 0.2s ease-in-out;
+        
+//         h1{
+//             font-size: 6rem;
+//             font-family: "Cinzel";
+
+//             @media (max-width:720px) {
+//                 font-size: 3rem;
+//             }
+//         };
+
+//         h3{
+//             font-size: 6rem;
+//             font-family: "Cinzel";
+
+//             @media (max-width:720px) {
+//                 font-size: 3rem;
+//             }
+//         };
+
+//     };
+// };
+
+
+
