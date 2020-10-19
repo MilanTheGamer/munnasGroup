@@ -1,0 +1,70 @@
+@import "./variables";
+
+.restaurant{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 80px;
+
+    .rTopBox{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .rHeadImage{
+            flex-grow: 1;
+            width: 50%;
+            min-width: 300px;
+            height: 100%;
+            background: url("./images/restrauntHome.jpg");
+            background-size: cover;
+
+            @media (max-width:720px) {
+                height: 50%;
+            };
+
+        };
+
+        .rHeadtitle{
+            flex-grow: 1;
+            width: 50%;
+            max-height: 100%;
+            padding: 2vw;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-size: 6vw;
+                font-weight: 900;
+                color: $font-color;
+                font-family: "Roboto";
+                text-shadow: 5px 5px 5px rgba(156, 156, 156, 0.2);
+
+                @media (max-width:720px) {
+                    font-size: 50px;
+                };
+            };
+
+            .rDescription{
+                width: 100%;
+                min-height: 50vh;
+                padding: 5vw;
+                margin-top: 20px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: justify;
+                background: $secondary-color;
+
+                p{
+                    font-family: "Poppins";
+                    font-weight: 400;
+                };
+
+            };
+            
+        };
+    };
+};

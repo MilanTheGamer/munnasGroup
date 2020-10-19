@@ -3,9 +3,8 @@ import "./Card.scss";
 
 const Card = ({image,heading,content}) => {
     return (
-        <div className="card">
-            <img src={image}/>
-            <div>
+        <div className="card" style={{backgroundImage:`url(${image})`}}>
+            <div className="cardContent">
                 <h3>{heading}</h3>
                 <p>{content}</p>
             </div>

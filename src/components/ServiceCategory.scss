@@ -1,0 +1,117 @@
+@import "./variables";
+
+
+.services{
+    width: 100%;
+    min-height: 100vh;
+    padding: 4vw 2vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: url("./images/y2.jpg");
+    background-size: cover;
+
+    h1{
+        font-size: 6vw;
+        @media (max-width:720px) {
+            font-size: 50px;
+        };
+    };
+
+    .servicesBox{
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+
+        .serviceItem{
+            width: 500px;
+            height: 500px;
+            min-width: 300px;
+            min-height: 300px;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background: $primary-color;
+            transition: all 0.2s ease-in-out;
+            background-size: cover;
+            cursor: pointer;
+            
+            .itemName{
+                padding: 20px;
+                background: linear-gradient(to bottom, transparent, $font-color);
+            }
+
+            h2{
+                color: $primary-color;
+            }
+            
+            @media (max-width:720px) {
+                width: 300px;
+                height: 400px;
+            }
+
+            &:hover{
+                transform: translateY(-10px);
+            }
+        };
+    };
+};
+
+// .services{
+//     width: 100%;
+//     min-height: 100vh;
+//     margin: 10px 0px ;
+//     background: $primary-color;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     overflow: hidden;
+
+//     .servicesImage{
+//         width: 50%;
+//         min-width: 300px;
+//         min-height: 500px;
+//         flex-grow: 1;
+//         overflow: hidden;
+//         background-size: cover;
+//     };
+
+//     .servicesDescription{
+//         width: 50%;
+//         flex-grow: 1;
+//         padding: 10px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         overflow: hidden;
+
+//         h2{
+//             font-size: 6vw;
+//             font-weight: 400;
+//             font-family: 'Cinzel', serif;
+//             @media (max-width:720px) {
+//                 font-size: 40px;
+//             }
+//         }
+//         p{
+//             padding: 50px;
+//             flex-grow: 1;
+//             font-size: 14px;
+//             font-family: 'Prata', serif;
+//             text-align: justify;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//         };
+
+//     };
+// };

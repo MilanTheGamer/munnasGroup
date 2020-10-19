@@ -1,31 +1,45 @@
 @import "./variables";
 
 .card{
-    width: 350px;
-    height: 400px;
+    width: 20vw;
+    height: 20vw;
     background: $primary-color;
-    box-shadow: $shadow;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     transition: all 0.2s ease-in-out;
+    border-radius: 5px;
     cursor: pointer;
 
-    &:hover{
-        transform: scale(1.02);
-        opacity: 0.8;
-    }
+    .cardContent{
+        width: 100%;
+        min-height: 100px;
+        padding: 10px;
+        background: linear-gradient(to bottom, transparent, $font-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
 
-    div{
-        padding:20px;
         h3{
-                font-size: 18px;
-                font-weight: 400;
-                font-family: 'Prata', serif;
-                margin-bottom: 10px;
-                border-bottom: 2px solid $accent-color;
-        }
-        p{
-            font-size: 14px;
-            font-family: 'Prata', serif;
-            text-align: justify;
+            font-size: 2vw;
+            font-family: "Poppins";
+            color: $primary-color;
+            transition: all 0.2s ease-in-out;
         };
     };
+
+    &:hover{
+        transform: translateY(-10px);
+        opacity: 0.8;
+        box-shadow: $shadow;
+
+        h3{
+            font-size: 2.1vw;
+            font-family: "Poppins";
+            color: $primary-color;
+        };
+
+    };
+
 };

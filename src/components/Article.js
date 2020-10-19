@@ -6,9 +6,7 @@ const Article = ({image,heading,contents,imgPosition}) => {
         <React.Fragment>
             {imgPosition === "LEFT" ? 
                 <div className="article">
-                    <div className="articleImage">
-                        <img src={image}/>
-                    </div>
+                    <div className="articleImage" style={{backgroundImage:`url(${image})`}}></div>
                     <div className="articleDescription">
                         <h2>{heading}</h2>
                         <p>{contents}</p>
