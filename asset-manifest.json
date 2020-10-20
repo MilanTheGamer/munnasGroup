@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/munnasGroup/static/css/main.e1c8f8ea.chunk.css",
+    "main.js": "/munnasGroup/static/js/main.3a80317e.chunk.js",
+    "main.js.map": "/munnasGroup/static/js/main.3a80317e.chunk.js.map",
+    "runtime-main.js": "/munnasGroup/static/js/runtime-main.33a42e1a.js",
+    "runtime-main.js.map": "/munnasGroup/static/js/runtime-main.33a42e1a.js.map",
+    "static/js/2.ffc91653.chunk.js": "/munnasGroup/static/js/2.ffc91653.chunk.js",
+    "static/js/2.ffc91653.chunk.js.map": "/munnasGroup/static/js/2.ffc91653.chunk.js.map",
+    "index.html": "/munnasGroup/index.html",
+    "precache-manifest.2f065a9104ce50b64764ba908c2bce2a.js": "/munnasGroup/precache-manifest.2f065a9104ce50b64764ba908c2bce2a.js",
+    "service-worker.js": "/munnasGroup/service-worker.js",
+    "static/css/main.e1c8f8ea.chunk.css.map": "/munnasGroup/static/css/main.e1c8f8ea.chunk.css.map",
+    "static/js/2.ffc91653.chunk.js.LICENSE.txt": "/munnasGroup/static/js/2.ffc91653.chunk.js.LICENSE.txt",
+    "static/media/callIcon.svg": "/munnasGroup/static/media/callIcon.84fa84de.svg",
+    "static/media/Distributions.scss": "/munnasGroup/static/media/d4.4ed0cd61.jpg",
+    "static/media/distributions.jpg": "/munnasGroup/static/media/distributions.82bd35e1.jpg",
+    "static/media/down_arrow_white.svg": "/munnasGroup/static/media/down_arrow_white.a93708ed.svg",
+    "static/media/emailIcon.svg": "/munnasGroup/static/media/emailIcon.3e10de0e.svg",
+    "static/media/facebookIcon.svg": "/munnasGroup/static/media/facebookIcon.57108f3b.svg",
+    "static/media/home1.jpg": "/munnasGroup/static/media/home1.04d4681f.jpg",
+    "static/media/HomeScreen.scss": "/munnasGroup/static/media/home7.71a0dad8.jpg",
+    "static/media/locationIcon.svg": "/munnasGroup/static/media/locationIcon.ebd58853.svg",
+    "static/media/logo.png": "/munnasGroup/static/media/logo.79950137.png",
+    "static/media/ContactUs.scss": "/munnasGroup/static/media/mapLocation.03824bc6.png",
+    "static/media/menu.svg": "/munnasGroup/static/media/menu.42bd2cb6.svg",
+    "static/media/restaurant1.jpg": "/munnasGroup/static/media/restaurant1.99378d80.jpg",
+    "static/media/Restaurant.scss": "/munnasGroup/static/media/restrauntHome.ab4e27aa.jpg",
+    "static/media/story.png": "/munnasGroup/static/media/story.2fd19e06.png",
+    "static/media/supermarket2.jpg": "/munnasGroup/static/media/supermarket2.db235605.jpg",
+    "static/media/Supermarket.scss": "/munnasGroup/static/media/supermarketMain.5f1bc908.jpg",
+    "static/media/ServiceCategory.scss": "/munnasGroup/static/media/y2.bbf536e8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33a42e1a.js",
+    "static/js/2.ffc91653.chunk.js",
+    "static/css/main.e1c8f8ea.chunk.css",
+    "static/js/main.3a80317e.chunk.js"
+  ]
+}
