@@ -15,7 +15,10 @@ const Story = (props) => {
                         <h3>Our</h3>
                         <h3>Story</h3>
                     </div>
-                    <span>Mr.BinuThankappanThankappan, an Ex, an Ex-Air Force Veteran had a humble beginning of business Air Force Veteran had a humble beginning of business
+                    <span>
+                        Started in the year 2007, by ab Indian Air Force Veteran as a small venture, has now grown to multiple business segments of Supermarket and
+                        Distribution of Speciality oils, Raw Materials and Ingredients to Bakery Production Units, Snacks, Feyers, Exports Etc. <br/><br/>
+                        Mr.Binu Thankappan Thankappan, an Ex, an Ex-Air Force Veteran had a humble beginning of business Air Force Veteran had a humble beginning of business
                         ventures at Coimbatore, Tamil Nadu. With a zeal to success and get hold on to the
                         business ventures, he has started first Supermarket in Kumbanad area of
                         Pathanamthittadistrict.district

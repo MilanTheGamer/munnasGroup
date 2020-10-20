@@ -14,10 +14,12 @@
 
     h1{
         font-size: 6vw;
+        
         @media (max-width:720px) {
-            font-size: 50px;
+            font-size: 60px;
         };
     };
+
 
     .servicesBox{
         width: 100%;
@@ -27,7 +29,6 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        padding: 20px;
         gap: 20px;
 
         .serviceItem{

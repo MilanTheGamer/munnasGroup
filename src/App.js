@@ -10,6 +10,7 @@ import './components/Navbar';
 import Navbar from './components/Navbar';
 import HomeScreen from "./components/HomeScreen";
 import Story from "./components/Story";
+import Vision from "./components/Vision";
 import ContactUs from "./components/ContactUs";
 import ServiceCategory from "./components/ServiceCategory";
 import Supermarket from "./components/Supermarket";
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/">
             <HomeScreen />
             <Story />
+            <Vision />
             <ServiceCategory />
             <ContactUs />
           </Route>

@@ -17,10 +17,13 @@ const HomeScreen = (props) => {
                 <div className="titleBox">
                     <h1>Munnas</h1>
                     <h3>Group</h3>
+                    <span>
+                        Serve the Best Quality Products
+                    </span> 
                     <div className="toStoryButton" onClick={scrollToStory}>
-                        <div>
+                        <div>  
                             <span>Our Story</span>
-                            <img src={downArrowWhite}/>
+                            
                         </div>
                     </div>
                 </div>
