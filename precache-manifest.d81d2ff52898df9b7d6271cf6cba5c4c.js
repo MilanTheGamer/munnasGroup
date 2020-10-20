@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "747ebc7d2fede2c0ee49ab0e4271af7e",
+    "revision": "69ca89f044b81060f5f948ce48a0974c",
     "url": "/munnasGroup/index.html"
   },
   {
-    "revision": "a21dbb35a597d84b3294",
+    "revision": "aad99c2ffd8f7111603a",
     "url": "/munnasGroup/static/css/main.e1c8f8ea.chunk.css"
   },
   {
-    "revision": "8d20bebb712c17addddc",
-    "url": "/munnasGroup/static/js/2.ffc91653.chunk.js"
+    "revision": "07b168698741f07e4d2c",
+    "url": "/munnasGroup/static/js/2.bae5161d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/munnasGroup/static/js/2.ffc91653.chunk.js.LICENSE.txt"
+    "url": "/munnasGroup/static/js/2.bae5161d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a21dbb35a597d84b3294",
-    "url": "/munnasGroup/static/js/main.3a80317e.chunk.js"
+    "revision": "aad99c2ffd8f7111603a",
+    "url": "/munnasGroup/static/js/main.5fd210da.chunk.js"
   },
   {
     "revision": "ed711679bdd70d4d3fda",

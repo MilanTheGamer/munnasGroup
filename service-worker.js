@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/munnasGroup/precache-manifest.2f065a9104ce50b64764ba908c2bce2a.js"
+  "/munnasGroup/precache-manifest.d81d2ff52898df9b7d6271cf6cba5c4c.js"
 );
 
 self.addEventListener('message', (event) => {
